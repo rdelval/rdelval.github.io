@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Renan DelValle</title>
+	<atom:link href="https://cs.binghamton.edu/~rdelval1/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cs.binghamton.edu/~rdelval1</link>
+	<description>PhD Candidate at SUNY Binghamton</description>
+	<lastBuildDate>Sat, 23 Sep 2017 18:12:34 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.8.1</generator>
+	<item>
+		<title>Installing Linux when there is no BIOS support for booting from USB</title>
+		<link>https://cs.binghamton.edu/~rdelval1/installing-linux-when-there-is-no-bios-support-for-booting-from-usb/</link>
+		<pubDate>Thu, 02 Jun 2016 02:56:09 +0000</pubDate>
+		<dc:creator><![CDATA[rdelval1]]></dc:creator>
+				<category><![CDATA[Linux]]></category>
+
+		<guid isPermaLink="false">http://cs.binghamton.edu/~rdelval1/?p=54</guid>
+		<description><![CDATA[Many old computers (pre Vista era) have no support for booting from a USB drive. This became an issue the moment Linux distros were only made to be installed from a DVD drive. That&#8217;s because most of the computers that don&#8217;t have support for booting from a USB also don&#8217;t have DVD drives. This meant [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>Many old computers (pre Vista era) have no support for booting from a USB drive.</p>
+<p>This became an issue the moment Linux distros were only made to be installed from a DVD drive. That&#8217;s because most of the computers that don&#8217;t have support for booting from a USB also don&#8217;t have DVD drives.</p>
+<p>This meant that I was limited to installing distros that fit on a CD, such as Ubuntu minimal. This is fine for most as you can choose to install your favorite DE during the menu selection in the install process.</p>
+<p>In this case, most of my lab has become very familiar with Linux Mint which we use due to its similarity to the &#8220;XP&#8221; interface so many are used to. In short, it&#8217;s much easier for new students to work with the system (not against it!) and get to work.</p>
+<p>However, since around Linux Mint 14, the install image doesn&#8217;t fit on a DVD. A little searching brought me to the <a href="https://www.plop.at/en/bootmanager/download.html">Plop Boot Manager</a>. It&#8217;s a cool little project that does away with any booting inadequacies the BIOS has. It boots to a simple interface which then allows you to boot from a USB drive.</p>
+<p>Unfortunately for me, it didn&#8217;t work at first. The drive containing Linux Mint 17.3 XFCE refused to boot. By chance I happened to enter the settings and tweaked them to force USB 1.1 in Mode 1. This let me finally boot into the live environment and install from the USB.</p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>
